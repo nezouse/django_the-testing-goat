@@ -18,6 +18,7 @@ else:
 INSTALLED_APPS = [
     'lists',
     'accounts',
+    'functional_tests',
     # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
