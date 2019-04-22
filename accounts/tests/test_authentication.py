@@ -1,7 +1,9 @@
-from django.test import TestCase
 from django.contrib.auth import get_user_model
+from django.test import TestCase
+
 from accounts.authentication import PasswordlessAuthenticationBackend
 from accounts.models import Token
+
 User = get_user_model()
 
 

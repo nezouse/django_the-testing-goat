@@ -1,5 +1,3 @@
-from unittest import skip
-
 from selenium.webdriver.common.keys import Keys
 
 from .base import FunctionalTest
@@ -20,7 +18,7 @@ class ItemValidationTest(FunctionalTest):
         # list page
         self.wait_for(lambda: self.browser.find_element_by_css_selector(
             '#id_text:invalid')
-        )
+                      )
 
         # She starts typing some text for the new item and the error disappers
         self.get_item_input_box().send_keys('Buy milk')

@@ -4,7 +4,6 @@ from django.contrib import auth
 from django.contrib.auth import models
 from django.db import models
 
-
 auth.signals.user_logged_in.disconnect(auth.models.update_last_login)
 
 

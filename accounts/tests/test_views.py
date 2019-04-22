@@ -2,7 +2,6 @@ from unittest.mock import call, patch
 
 from django.test import TestCase
 
-import accounts.views
 from accounts.models import Token
 
 
